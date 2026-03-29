@@ -1,0 +1,9 @@
+Starting load test with 5000 concurrent requests...
+Stock reset: {'message': 'Inventory reset successfully.', 'current_stock': 1000}
+------------------------------
+Time taken: 18.23 seconds
+Total Requests: 5000
+Successful Purchases: 1000 (Expected: 1000)
+Out of Stock: 4000 (Expected: 4000)
+------------------------------
+Concurrency test passed. No race conditions detected.
